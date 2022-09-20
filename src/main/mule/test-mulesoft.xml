@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="test-mulesoftFlow" doc:id="201f0156-89d3-4489-b540-587084af2fc9" >
 		<http:listener doc:name="Listener" doc:id="dd8651d1-26ff-49dc-a744-133fba36aec5" config-ref="HTTP_Listener_config" path="/"/>
-		<logger level="INFO" doc:name="Logger" doc:id="d18207d5-da65-46fb-b58d-2c2721082f83" message="Hellooooooooo World II"/>
+		<logger level="INFO" doc:name="Logger" doc:id="d18207d5-da65-46fb-b58d-2c2721082f83" message="Hellooooooooo World developer"/>
 	</flow>
 </mule>
